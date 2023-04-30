@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #f0e1ee;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top_section h4 {
+    text-align: end;
+  }
+  
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  .biography_section {
+    margin: 50px 0;
+  }
+  .biography_section h3 {
+    margin-bottom: 20px;
+  }
+  .biography_section ul {
+    margin-left: 50px;
+  }
+  .biography_section li {
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
+  .para1{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+.naa{
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgb(245, 223, 239),rgb(231, 215, 186));
+    overflow: auto;
+    height: auto;
+}
+
+.naa a{
+    float:left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+.naa a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.naa a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+.naa-right{
+    float: right;
+}
+nav > ul {
+    list-style-type: none;
+    width: 60px;
+  }
+  li a {
+    list-style: none;
+    display: block;
+ 
+  }
+
+
+  
